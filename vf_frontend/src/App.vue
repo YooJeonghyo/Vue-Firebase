@@ -9,9 +9,9 @@
       <v-divider></v-divider>
       <site-menu></site-menu>
     </v-navigation-drawer>
-    <v-content>
+    <v-main>
       <router-view />
-    </v-content>
+    </v-main>
     <site-footer :footer="footer"></site-footer>
   </v-app>
 </template>
